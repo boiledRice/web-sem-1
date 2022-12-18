@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příručka uživatele domácích sítí | Web o bezpečnosti domacích bezdratových sítí</title>
+    <link rel="stylesheet" href="./../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h2 class="webName">Web o bezpečnosti domacích bezdratových sítí</h2>
+    </header>
+    <div class="navBar">
+        <ul class="navList">
+            <li><a class="navLevel1 navLink"href="./../uvod/index.html">Úvod</a></li>
+            <li><a class="navLevel1 navLink" href="./../zakladni-uzivatelska-prirucka/index.html">Uživatelská příručka</a></li>
+            <li><a class="navLevel1 navParentLink" href="./../znalostni-baze/index.html">Ználostní báze</a>
+                <ul class="navList">
+                    <li><a class="navLevel2 navLink" href="./../znalostni-baze/struktura-a-topologie/index.html">Struktura a topologie</a></li>
+                    <li><a class="navLevel2 navLink" href="./../znalostni-baze/potencialni-hrozby/index.html">Potenciální hrozby</a></li>
+                    <li><a class="navLevel2 navParentLink" href="./../znalostni-baze/metody-zabezpeceni/index.html">Metody zabezpečení</a>
+                        <ul class="navList">
+                            <li><a class="navLevel3 navLink" href="./../znalostni-baze/metody-zabezpeceni/ochrana-obvodu/index.html">Ochrana obvodu</a></li>
+                            <li><a class="navLevel3 navLink" href="./../znalostni-baze/metody-zabezpeceni/zabezpeceni-bezdratove-site/index.html">Zabezpečení bezdrátové sítě</a></li>
+                            <li><a class="navLevel3 navLink" href="./../znalostni-baze/metody-zabezpeceni/zabezpeceni-uvnitr-site/index.html">Zabezpečení uvnitř sítě</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <p style="color: red;">Tato stránka potřebuje udržbu. Je třeba jí dopolnit o úkazkové postupy nastavení a podrobnější instrukce. Pokud byste chtěli přispět k údržbě těchto stránek, obráťte se na správce - dmshp@protonmail.com. </p>
+        <p><h1>Příručka uživatele domácích sítí</h1></p>
+        <p><h2>Nastavte si směrovač(router)</h2></p>
+        <p>
+            <ul>
+                <li>Změňte přednastavené jméno uživatele a heslo.</li>
+                <li>Vypněte funkce, které nepotřebujete.</li>
+                <li>Povolte ve firewallu pouze porty, které potřebujete používat.</li>
+                <li>Změňte adresu DNS serveru na jednu z níže uvedených.
+                    <table style="margin-left: 16px; margin-top:10px;">
+                        <tr>
+                            <td width = "230">Comodo Secure DNS</td>
+                            <td>8.26.56.26 a 8.20.247.20</td>
+                        </tr>
+                        <tr>
+                            <td>Norton ConnectSafe</td>
+                            <td>199.85.126.10, 199.85.127.10</td>
+                        </tr>
+                        <tr>
+                            <td>Google Public DNS (pro IPv6)</td>
+                            <td>8.8.8.8, 2001:4860:4860:8888</td>
+                        </tr>
+                        <tr>
+                            <td>OpenDNS</td>
+                            <td>208.67.222.222, 208.67.220.220</td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </p>
+        <p><h2>Nastavte si wi-fi router</h2></p>
+        <p>
+            <ul>
+                <li>Zvolte si metodu zabezpečení WPA2.</li>
+                <li>Zadejte unikátní jméno sítě a složité heslo.</li>
+                <li>Vypněte WPS a další funkce, které nepotřebujete používat.</li>
+            </ul>
+        </p>
+        <p><h2>Nakonfigurujte nastavení každého zařízení, které má přístup k sítí.</h2></p>
+        <p>
+            <ul>
+                <li>Povolte ve firewallech počítačů pouze skutečně používané porty.</li>
+                <li>Vypněte v jejích nastavení funkce, které nepotřebujete používat.</li>
+                <li>Včas instalujte aktualizace.</li>
+                <li>Nainstalujte si antivirus.</li>
+            </ul>
+        </p>
+    </div>
+</body>
+</html>
