@@ -1,0 +1,27 @@
+header{
+    height: 110px;
+}
+.webName{
+    font-family:"Lucida Console", monospace;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    width: 602px;
+    padding-top: 27px;
+    /* padding-left: 10%; */
+    font-size: xx-large;
+    display: inline-block;
+    position:absolute;
+}
+#navBar{
+    display: none;
+}
+.pageLocation{
+    display: none;
+}
+.pageName{
+    margin-top: 15px;
+}
+.content{
+    padding-left: 14.14%;
+    padding-right: 14.14%;
+}

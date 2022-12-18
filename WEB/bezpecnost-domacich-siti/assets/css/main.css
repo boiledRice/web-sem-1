@@ -1,13 +1,12 @@
 body{
     margin: 0;
     background-color: rgb(250, 253, 255);
-    height: 20000px;
+    min-width: 860px;
 }
 header{
     background-color: #231f1a;
     height: 148px;
-    min-width: 860px;
-    
+    /* min-width: 860px; */
 }
 .webName{
     font-family:"Lucida Console", monospace;
@@ -20,12 +19,7 @@ header{
     display: inline-block;
     position:absolute;
 }
-ul.navList{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.navBar{
+#navBar{
     width: 25%;
     min-width: 300px;
     position:fixed;
@@ -34,6 +28,11 @@ ul.navList{
     padding: 5px;
  /* display: inline-block; */
     background-color: #231f1a;
+}
+ul.navList{
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .navLink{
     display: block;
@@ -108,5 +107,6 @@ ul.navList:hover{
 .content{
     padding-left: 16.2%;
     padding-right: 26.24%;
-    min-width: 602px;
+    min-width: 480px;
+    max-width: 734px;
 }
