@@ -24,7 +24,6 @@ header{
 *
 *navigation menu styling
 *
-*
 */
 #navBar{
     width: 25%;
@@ -61,11 +60,17 @@ ul.navList{
 .navParentLink + ul.navList{
     display:none;
 }
+.navParentLink + ul.navList.navKeepOpen{
+    display:block;
+}
 .navParentLink:hover + ul.navList{
     display:block;
 }
 ul.navList:hover{
     display:block;
+}
+#actualNavItem{
+    background-color: #0ca3f5;
 }
 .navLevel1{
     background-color: #383633;
@@ -94,11 +99,10 @@ ul.navList:hover{
     background-color: #43748e;
     text-decoration: underline;
 }
-/* 
+/*
+* 
 *end of navigation menu styling
 *
-*
-
 */
 
 .pageLocation{
