@@ -35,7 +35,7 @@ header{
  /* display: inline-block; */
     background-color: #231f1a;
 }
-ul.navList{
+menu.navList{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -57,16 +57,16 @@ ul.navList{
     font-size: larger;
     color: rgb(246, 246, 238); 
 }
-.navParentLink + ul.navList{
+.navParentLink + menu.navList{
     display:none;
 }
-.navParentLink + ul.navList.navKeepOpen{
+.navParentLink + menu.navList.navKeepOpen{
     display:block;
 }
-.navParentLink:hover + ul.navList{
+.navParentLink:hover + menu.navList{
     display:block;
 }
-ul.navList:hover{
+menu.navList:hover{
     display:block;
 }
 #actualNavItem{
