@@ -8,8 +8,9 @@ header{
     height: 148px;
     /* min-width: 860px; */
 }
-.webName{
+#webName{
     font-family:"Lucida Console", monospace;
+    text-decoration: none;
     color: rgb(246, 246, 238);
     margin: 0;
     width: 602px;
@@ -19,6 +20,12 @@ header{
     display: inline-block;
     position:absolute;
 }
+/* 
+*
+*navigation menu styling
+*
+*
+*/
 #navBar{
     width: 25%;
     min-width: 300px;
@@ -36,12 +43,7 @@ ul.navList{
 }
 .navLink{
     display: block;
-    /* margin-left: 5px; */
-    border-color: #231f1a;
-    border-top: 5px;
-    /* margin-bottom: 0; */
     padding: 9px;
-    /* background-color: #a5a3a0; */
     font-family:"Lucida Console", monospace;
     text-decoration: none;
     font-size: larger;
@@ -50,11 +52,7 @@ ul.navList{
 .navParentLink{
     display: block;
     margin: 0px;
-    border-color: #231f1a;
-    border-top: 5px;
-    /* margin-bottom: 0; */
     padding: 9px;
-    /* background-color: #383633; */
     font-family:"Lucida Console", monospace;
     text-decoration: none;
     font-size: larger;
@@ -75,12 +73,10 @@ ul.navList:hover{
 .navLevel2{
     background-color: #585857;
     display: block;
-    /* padding-left: 25px; */
 }
 .navLevel3{
     background-color: #908f8e;
     display: block;
-    /* padding-left: 45px; */
 }
 .navLink:hover{
     background-color: #3fb8f9;
@@ -98,6 +94,13 @@ ul.navList:hover{
     background-color: #43748e;
     text-decoration: underline;
 }
+/* 
+*end of navigation menu styling
+*
+*
+
+*/
+
 .pageLocation{
     padding-left: 16.2%;
 }
