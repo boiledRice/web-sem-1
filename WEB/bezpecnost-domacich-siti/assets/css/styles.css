@@ -99,6 +99,12 @@ ul.navList:hover{
     background-color: #43748e;
     text-decoration: underline;
 }
+.pageLocation{
+    padding-left: 16.2%;
+}
+.pageName{
+    margin-top: 15px;
+}
 .content{
     padding-left: 16.2%;
     padding-right: 26.24%;
