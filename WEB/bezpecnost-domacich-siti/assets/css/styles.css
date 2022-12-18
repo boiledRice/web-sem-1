@@ -64,6 +64,12 @@ ul.navList{
 .navParentLink + ul.navList{
     display:none;
 }
+.navParentLink:hover + ul.navList{
+    display:block;
+}
+ul.navList:hover{
+    display:block;
+}
 .navLevel1{
     background-color: #383633;
 }
@@ -85,18 +91,16 @@ ul.navList{
     background-color: #43748e;
     text-decoration: underline;
 }
-
 .navParentLink:hover{
     background-color: #3fb8f9;
     text-decoration: underline;
 }
-.navParentLink:hover + ul.navList{
-    display:block;
-}
-ul.navList:hover{
-    display:block;
-}
 .navParentLink:focus{
     background-color: #43748e;
     text-decoration: underline;
+}
+.content{
+    padding-left: 16.2%;
+    padding-right: 26.24%;
+    min-width: 602px;
 }
