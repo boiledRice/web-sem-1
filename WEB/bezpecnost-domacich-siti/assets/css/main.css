@@ -184,3 +184,10 @@ main.content.multiColumn{
 .caution{
     color: red;
 }
+img{  
+    max-width: 100%;  
+    height: auto;  
+}  
+#homeNetworkImg{
+    width: 42%;
+}
