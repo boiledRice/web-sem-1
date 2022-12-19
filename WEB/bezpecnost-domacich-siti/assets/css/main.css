@@ -1,40 +1,86 @@
 body{
     margin: 0;
     background-color: rgb(250, 253, 255);
-    min-width: 800px;
+    /* min-width: 800px; */
 }
-header{
-    background-color: #231f1a;
-    height: 148px;
-    min-width: 800px;
+
+@media (min-width: 1300px){
+    header{
+        background-color: #231f1a;
+        height: 140px;
+        /* min-width: 800px; */
+        /* padding: auto; */
+        /* text-align: center; */
+    }
+    #webName{
+        font-family:"Lucida Console", monospace;
+        text-decoration: none;
+        color: rgb(246, 246, 238);
+        /* margin:auto; */
+        width: 70%;
+        max-width: 602px;
+        min-width: 560px;
+        margin-top: 27px;
+        /* padding-right: 100px; */
+        padding-left: 17%;
+        font-size: xx-large;
+        /* display: block; */
+        position:absolute;
+    }
+    
+    #navBar{
+        /* width: 25%; */
+        width: 300px;
+        position:fixed;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 5px;
+        background-color: #231f1a;
+    }
+    .navParentLink + menu.navList.navKeepOpen{
+        display:block;
+    }
 }
-#webName{
-    font-family:"Lucida Console", monospace;
-    text-decoration: none;
-    color: rgb(246, 246, 238);
-    margin: 0;
-    width: 602px;
-    padding-top: 27px;
-    padding-left: 10%;
-    font-size: xx-large;
-    /* display: inline-block; */
-    position:absolute;
+@media (max-width: 1299px){
+    header{
+        background-color: #231f1a;
+        height:140px;
+        /* min-width: 800px; */
+        /* padding: auto; */
+        /* text-align: center; */
+    }
+    #webName{
+        font-family:"Lucida Console", monospace;
+        text-decoration: none;
+        color: rgb(246, 246, 238);
+        /* margin:auto; */
+        width: 55%;
+        max-width: 602px;
+        min-width: 420px;
+        margin-top: 27px;
+        /* padding-right: 100px; */
+        padding-left: 10%;
+        font-size: xx-large;
+        /* display: block; */
+        position:absolute;
+    }
+    #navBar{
+        width: 30%;
+        min-width: 250px;
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        padding: 5px;
+        background-color: #231f1a;
+    }
 }
 /* 
 *
 *navigation menu styling
 *
 */
-#navBar{
-    width: 25%;
-    min-width: 300px;
-    position:fixed;
-    top: 0;
-    right: 0;
-    padding: 5px;
- /* display: inline-block; */
-    background-color: #231f1a;
-}
 menu.navList{
     margin: 0;
     padding: 0;
@@ -60,9 +106,7 @@ menu.navList{
 .navParentLink + menu.navList{
     display:none;
 }
-.navParentLink + menu.navList.navKeepOpen{
-    display:block;
-}
+
 .navParentLink:hover + menu.navList{
     display:block;
 }
@@ -107,6 +151,10 @@ menu.navList:hover{
 
 .pageLocation{
     padding-left: 16.2%;
+    padding-right: 20.24%;
+    min-width: 480px;
+    max-width: 734px;
+    margin: auto;
 }
 .pageName{
     margin-top: 15px;
@@ -117,6 +165,8 @@ menu.navList:hover{
     padding-right: 20.24%;
     min-width: 480px;
     max-width: 734px;
+    margin: auto;
+
 }
 main.content.multiColumn{
     display: flex;
